@@ -1,0 +1,229 @@
+{"accounts" : [
+	{
+		"account_name": "Human Genetics",
+		"account_id": "human-genetics",
+		"client": "Dr. Shaffer", 
+		"description": "Give me a description", 
+		"account_link" : "LINK",
+		"show_hours": true, 
+		"show_hours_paid": false, 
+		"hours_paid": 42,
+		"protected": false,
+		"projects": [
+			{
+				"name": "Web Site Development", 
+				"link": "LINK", 
+				"description": "Building a web application to handle detailed graph generation. Open the application <a href='http://genetics.melwood.jcubedworld.com/' target='_blank'>here</a>. View the source code on <a href='https://github.com/JoshuaRogan/genetics' target='_blank'>github</a>.",
+				"tasks" : [
+					{
+						"name": "Research Graph API's", 
+						"id" : 0,
+						"description": "Research the best graph API to meet the requirements of the project.",
+						"type": "Research",  
+						"status": "Completed",
+						"hours_worked": 1.5, 
+						"notes": [
+							"Will be using <a href='http://canvasjs.com/' target='_blank'>Canvas JS </a> as it provides 100,000 data points at 100ms render time. Also allows for zooming and panning of graph.  ",
+							"First alternate will be <a href='http://www.chartjs.org/' target='_blank'> Chart JS</a>. Very nice looking responsive design but doesn't give information on how many data points it can render."
+						]
+					},
+					{
+						"name": "Setup Development Environment", 
+						"id": 1,
+						"description": "Set up an initial environment to begin development in. ", 
+						"type": "Setup/Configuration", 
+						"status": "Completed",
+						"hours_worked": 1.5,  
+						"notes": [
+							"Link to the dev environment: <a href=\"http://dev.genetics.jcubedworld.com\" target='_blank'>dev.genetics.jcubedworld.com</a>. This is my own server for initial development.",
+							"Moved to better server: <a href='http://genetics.melwood.jcubedworld.com/' target='_blank'>genetics.melwood.jcubedworld.com/</a>"
+						]
+					},
+					{
+						"name": "Front End Design and Development", 
+						"id": 2,
+						"description": "Create the front end design using the front end framework <a href='http://getbootstrap.com/' target='_blank'> Bootstrap </a>", 
+						"type": "Design & Programming", 
+						"status": "In Progress",
+						"hours_worked": 35.0,  
+						"notes": [
+							"Using <a href='http://refreshless.com/nouislider/' target='_blank'>NoUIslider</a> for the input sliders",
+							"Using <a href='http://lesscss.org/' target='_blank'>LESS</a> for CSS preprocessor. Using <a href='http://nodejs.org/' target='_blank'>Node.js</a> for automatic less compiling in the development environment (turn off in production for speed improvements).",
+							"<a href='http://nodejs.org/' target='_blank'>Node.js</a> can also be used for input driven graph generation instead of having to wait for an actual submit button press.",
+							"Updated to the correct variables",
+							"Added options to allow additional variables to be ignored or used.",
+							"Created graph legend when you update the graph",
+							"Added changing of active to inactive on sliding movements or updated values",
+							"Added multi-line graphing",
+							"Added range sliders (used in generation override)",
+							"Added validation rules and validation feedback",
+							"Created icon and favicon"
+						]
+					},
+					{
+						"name": "Genetic Graphing Calculation Class", 
+						"id": 3,
+						"description": "Create a class (currently in JavaScript originally PHP) to create the random generations based on known probabilities. ", 
+						"type": "Programming", 
+						"status": "In Progress",
+						"hours_worked": 21.0,  
+						"notes": [
+							"Began working on the overall structure of the class.",
+							"Random sampling now integrated and working",
+							"Integrating forward and reverse mutation rate equations",
+							"Integrated mutation variables",
+							"All variables setup for calculation",
+							"Integrated selection and fitness coefficients",
+							"Added Population Bottleneck Variables. Working on implementation. ",
+							"Population bottleneck implemented with validation on generation size"
+
+
+						]
+					},
+					{
+						"name": "Saving and Unlocking", 
+						"id": 4,
+						"description": "Add Saving of generations and variables and unlocking of certain graph variables.", 
+						"type": "Programming",
+						"status": "In Progress",
+						"hours_worked": 2.0,  
+						"notes": [
+							"Saving: Use MySQL or JSON. Save only certain graphs or all graphs automatically?",
+							"Saving output to PDF consider using <a href='http://wkhtmltopdf.org/' target='_blank'>wkhtmltopdf</a>",
+							"Unlocking via URL's examples: <a href='#'>/home?type=all</a> <a href='#'>/home?type=1</a> <a href='#'>/home?type=2</a>  where the type variables can be different formats each one hiding certain variables."
+						]
+					},
+					{
+						"name": "Front End Graph Testing", 
+						"id": 5,
+						"description": "Test both graph systems extensively with different number of lines and number of points.", 
+						"type": "Testing",
+						"status": "Completed",
+						"hours_worked": 4.0,  
+						"notes": [
+							"ChartJS: <a href='http://genetics.melwood.jcubedworld.com/home?chart=chartjs' target='_blank'>Example</a>",
+							"CanvasJS: <a href='http://genetics.melwood.jcubedworld.com/home?chart=canvas' target='_blank'>Example</a>",
+							"Basic: <a href='http://genetics.melwood.jcubedworld.com/home?chart=basic' target='_blank'>Example</a>",
+							"Concluded that ChartJS WILL NOT work for this project. Must use CavnasJS for high performance"
+						]
+					},
+					{
+						"name": "JavaScript Performance Enhancement", 
+						"id": 5,
+						"description": "Optimize code to allow for 10,000+ generations on 10,000+ population size.", 
+						"type": "Programming",
+						"status": "In Progress",
+						"hours_worked": 5.5,  
+						"notes": [
+							"Implemented non-blocking building of random samples. (This will make it appear that the page isn't freezing during computation)",
+							"Added percentage modal to show progress of computation (Only appears on large computations)",
+							"Currently performs acceptably up to 1 million generations! But keeping at 10,000 for practical graphing purposes."
+						]
+					}
+				]
+			}
+		]
+	},
+	{
+		"account_name": "Velvet Pony Stories",
+		"account_id": "velvet-pony-stories",
+		"client": "Betsy Binder", 
+		"description": "Give me a description", 
+		"account_link" : "LINK",
+		"show_hours": true, 
+		"show_hours_paid": false, 
+		"hours_paid": 0,
+		"protected": false,
+		"projects": [
+			{
+				"name": "Adding Stories to Website", 
+				"link": "LINK", 
+				"description": "Convert stories from PDF to OCR format then upload online after proofing.  ",
+				"tasks" : [
+					{
+						"name": "OCR Conversion", 
+						"id" : 0,
+						"description": "Convert documents to text via OCR conversion. ", 
+						"type": "web",
+						"status": "In Progress",
+						"hours_worked": 1, 
+						"notes": [
+						]
+					}
+				]
+			},
+			{
+				"name": "Social Media Creation", 
+				"link": "LINK", 
+				"description": "Creating and maintaing Twitter and Facebook accounts.",
+				"tasks" : [
+					{
+						"name": "Setup Accounts", 
+						"id" : 0,
+						"description": "Create all accounts and add followers and friends.", 
+						"type": "web",
+						"status": "Completed",
+						"hours_worked": 4, 
+						"notes": [
+							"Twitter Account: <a href='https://twitter.com/VelvetPonyStory' target='_blank'> VelvetyPonyStory </a>",
+							"Facebook Account: <a href='https://www.facebook.com/velvetponystories' target='_blank'> Facebook Page </a>",
+							"Google Plus Account: <a href='https://plus.google.com/u/0/116910230426063540247/posts' target='_blank'> Google Account </a>"
+						]
+					}
+				]
+			}
+		]
+	},
+	{
+		"account_name": "Electric City Baseball",
+		"account_id": "electric-baseball",
+		"client": "Paul McGloin", 
+		"description": "Give me a description", 
+		"account_link" : "LINK",
+		"show_hours": true, 
+		"show_hours_paid": false, 
+		"hours_paid": 0,
+		"protected": false,
+		"projects": [
+			{
+				"name": "Web Site Maintenance", 
+				"link": "LINK", 
+				"description": "Updated various aspects of the website.",
+				"tasks" : [
+					{
+						"name": "Website Updates (November 25th)", 
+						"id" : 0,
+						"description": "Various website updates",
+						"type": "Updates",  
+						"status": "Completed",
+						"hours_worked": 2.5, 
+						"notes": [
+							"Update video links. Increased width of videos to 300px.",
+							"Removed colleges from home page.", 
+							"Updated Pitching Camp (Database change and pamphlet update).",
+							"Removed showcase photo from banner.",
+							"Modified video title.", 
+							"Added two new events (SB and ADV) to database.",
+							"Created banner image drafts for approval",
+							"Added banner images"
+						]
+					},
+					{
+						"name": "Moosic Mets Update (Dec. 3rd)", 
+						"id" : 1,
+						"description": "Various website updates",
+						"type": "Updates",  
+						"status": "Completed",
+						"hours_worked": 1, 
+						"notes": [
+							"Edited text on a form button",
+							"Update the Google form with the new fields",
+							"Changed ownership of file to moosicmetsgm@gmail.com from moosicmets@gmail.com"
+						]
+					}
+				]
+			}
+		]
+	}
+
+]}

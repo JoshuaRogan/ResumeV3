@@ -1,0 +1,50 @@
+{"achievements" : [
+	{
+		"title": "Dean's list",
+		"link": "https://www.scranton.edu/news/articles/2012/06/Deans-List-Spring-2012.shtml",
+		"content": "The University of Scranton Dean's List: A student must have a grade point average of 3.5 or better with a minimum number of credit hours to make the Dean's List.",
+		"fa": "fa-graduation-cap"
+	},
+	{
+		"title": "Innova Featured Photographer Contest",
+		"link": "http://www.innovadiscs.com/home/656-calendar-contest-winners.html",
+		"content": "Photography competition where the winners photos are featured in the 2015 disc golf calendar.",
+		"fa": "fa-camera"
+	},
+	{
+		"title": "Student Representative on Learning Mangement Working Group",
+		"link": "http://www.scranton.edu/pir/lms-evaluation/",
+		"content": "In October, 2011 IT Development and Applications (ITDA) began working with the Center for Teaching and Learning Excellence (CTLE) to formulate a plan to establish an LMS Evaluation Working Group, with a purpose of evaluating alternatives to ANGEL and select our institution's next learning management system.",
+		"fa": "fa-briefcase"
+	},
+	{
+		"title": "Pittsburgh Flying Disc Golf Open Amateur Champion",
+		"link": "http://www.pdga.com/tour/event/17045#tournament-stats-4",
+		"content": "First place in the Pittsburgh Flying Disc Golf Championship out of 34 amateur competitors.",
+		"fa": "fa-trophy"
+	},
+	{
+		"title": "Student Affairs Recognition",
+		"link": "http://www.scranton.edu/studentlife/studentaffairs/index.shtml",
+		"content": "Recognition for outstanding leadership and contributions to the students and staff at the University of Scranton.",
+		"fa": "fa-graduation-cap"
+	},
+	{
+		"title": "ACM International Collegiate Programming Contest 2012",
+		"link": "http://acm.mathcs.wilkes.edu/",
+		"content": "Honorable mention at the Wilkes University ACM Regional contest.",
+		"fa": "fa-trophy"
+	},
+	{
+		"title": "Neal J. Fasula Award (2011-2015)",
+		"link": "http://gerritys.com/neal-j-fasula-scholarship-fund.php",
+		"content": "Gerrity's Supermarkets, the Fasula family and the Scranton Area Foundation are pleased to announce the 2013 Neal J. Fasula Scholarship Fund.  Neal J. Fasula was owner of Gerrity's Supermarkets for nearly 30 years.  This scholarship was created in his memory to honor his contributions to the food industry and to the employees of Gerrity's Supermarkets.",
+		"fa": "fa-dollar"
+	},
+	{
+		"title": "Front Page of Reddit",
+		"link": "http://www.reddit.com/r/pics/comments/trqva/is_it_b_or_e/",
+		"content": "Made it to the front page of the Internet also known as reddit with OC.",
+		"fa": "fa-reddit"
+	}
+]}

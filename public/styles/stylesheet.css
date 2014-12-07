@@ -1,0 +1,363 @@
+.navbar .fa {
+  color: white;
+  width: 40px;
+  font-size: 26px;
+  text-align: right;
+}
+.banner {
+  min-height: 150px;
+  padding-bottom: 20px;
+  /* Small devices (tablets, 768px and up) */
+  /* Medium devices (desktops, 992px and up) */
+  /* Large devices (large desktops, 1200px and up) */
+}
+@media (min-width: 768px) {
+  .banner {
+    min-height: 250px;
+  }
+}
+@media (min-width: 992px) {
+  .banner {
+    min-height: 300px;
+  }
+}
+@media (min-width: 1200px) {
+  .banner {
+    min-height: 450px;
+  }
+}
+.banner#home-banner {
+  text-align: center;
+  background-color: #2c3e50;
+  background-image: -webkit-linear-gradient(top, #2c3e50 0%, #233140 100%);
+  background-image: -o-linear-gradient(top, #2c3e50 0%, #233140 100%);
+  background-image: linear-gradient(to bottom, #2c3e50 0%, #233140 100%);
+  background-repeat: repeat-x;
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff2c3e50', endColorstr='#ff233140', GradientType=0);
+  color: white;
+  padding-top: 0px;
+  /* Small devices (tablets, 768px and up) */
+  /* Medium devices (desktops, 992px and up) */
+  /* Large devices (large desktops, 1200px and up) */
+}
+.banner#home-banner h1 {
+  font-weight: 700;
+  font-size: 200%;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+.banner#home-banner p {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  font-weight: 300;
+  margin-bottom: 0;
+  font-size: 18px;
+  /* Small devices (tablets, 768px and up) */
+  /* Medium devices (desktops, 992px and up) */
+  /* Large devices (large desktops, 1200px and up) */
+}
+@media (min-width: 768px) {
+  .banner#home-banner p {
+    font-size: 22px;
+  }
+}
+@media (min-width: 992px) {
+  .banner#home-banner p {
+    font-size: 26px;
+  }
+}
+@media (min-width: 1200px) {
+  .banner#home-banner p {
+    font-size: 30px;
+  }
+}
+@media (min-width: 768px) {
+  .banner#home-banner h1 {
+    margin-top: 22px;
+  }
+}
+@media (min-width: 992px) {
+  .banner#home-banner {
+    min-height: 300px;
+    padding-top: 50px;
+    padding-top: 40px;
+  }
+  .banner#home-banner h1 {
+    font-size: 350%;
+    margin-top: 22px;
+  }
+  .banner#home-banner p {
+    margin-bottom: 11px;
+  }
+}
+@media (min-width: 1200px) {
+  .banner#home-banner {
+    min-height: 450px;
+    padding-top: 50px;
+  }
+  .banner#home-banner h1 {
+    font-size: 400%;
+    margin-top: 22px;
+  }
+}
+.banner.img-banner {
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.banner.img-banner cite {
+  position: absolute;
+  right: 10px;
+  color: rgba(255, 255, 255, 0.5);
+  font-size: 9px;
+}
+.banner.img-banner#pnc-banner {
+  background-image: url(/images/banners/pncpark.jpg);
+}
+.banner.img-banner#cambells-banner {
+  background-image: url(/images/banners/cambells-ledge.jpg);
+}
+.banner.img-banner#prompton-banner {
+  background-image: url(/images/banners/sunset_prompton.jpg);
+  background-position: 50% 60%;
+}
+.banner.img-banner#waterdrops-banner {
+  background-image: url(/images/banners/apartment-waterdrops.jpg);
+  background-position: 50% 100%;
+}
+.banner.img-banner#discgolf-banner {
+  background-image: url(/images/banners/discgolf-me.jpg);
+  background-position: 50% 10%;
+  height: 300px;
+  /* Small devices (tablets, 768px and up) */
+  /* Medium devices (desktops, 992px and up) */
+  /* Large devices (large desktops, 1200px and up) */
+}
+@media (min-width: 768px) {
+  .banner.img-banner#discgolf-banner {
+    height: 400px;
+  }
+}
+@media (min-width: 992px) {
+  .banner.img-banner#discgolf-banner {
+    height: 500px;
+  }
+}
+@media (min-width: 1200px) {
+  .banner.img-banner#discgolf-banner {
+    height: 550px;
+  }
+}
+#content p {
+  line-height: 1.5;
+  font-size: 18px;
+}
+#content h1,
+#content h2 {
+  font-weight: 700;
+}
+#content .btn {
+  margin-bottom: 10px;
+}
+body > footer {
+  margin-top: 20px;
+  background-color: #f0575b;
+  background-image: -webkit-linear-gradient(top, #f0575b 0%, #ee4044 100%);
+  background-image: -o-linear-gradient(top, #f0575b 0%, #ee4044 100%);
+  background-image: linear-gradient(to bottom, #f0575b 0%, #ee4044 100%);
+  background-repeat: repeat-x;
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#fff0575b', endColorstr='#ffee4044', GradientType=0);
+  color: white !important;
+  /*Icons hover*/
+}
+body > footer blockquote footer {
+  color: white;
+}
+body > footer a {
+  color: white;
+}
+body > footer a:hover {
+  color: white;
+  font-weight: bold;
+  text-decoration: none;
+}
+body > footer .twitter-feed {
+  font-size: 15px;
+}
+body > footer .social-icons a {
+  line-height: 45px;
+}
+body > footer .social-icons a .fa {
+  margin: 0 5px 0;
+  font-size: 30px;
+}
+body > footer .social-icons a:hover .fa {
+  -webkit-transition: all 100ms ease-in;
+  -o-transition: all 100ms ease-in;
+  transition: all 100ms ease-in;
+  font-size: 35px !important;
+  font-weight: normal;
+}
+body > footer blockquote {
+  padding-top: 30px;
+}
+body > footer cite {
+  font-style: italic;
+}
+::-moz-selection {
+  /* Code for Firefox */
+  background: #16b5d8;
+  color: white;
+}
+::selection {
+  background: #16b5d8;
+  color: white;
+}
+/******************Page Styles******************/
+.page-home #why-hire img {
+  margin-top: 30px;
+}
+.page-home #what-offer img {
+  margin-bottom: 20px;
+}
+.page-skills #company-logos {
+  margin-top: 60px;
+  margin-bottom: 60px;
+}
+.page-skills #company-logos .fa {
+  font-size: 50px;
+  text-align: center;
+  /* Small devices (tablets, 768px and up) */
+  /* Medium devices (desktops, 992px and up) */
+  /* Large devices (large desktops, 1200px and up) */
+}
+@media (min-width: 768px) {
+  .page-skills #company-logos .fa {
+    font-size: 70px;
+  }
+}
+@media (min-width: 992px) {
+  .page-skills #company-logos .fa {
+    font-size: 80px;
+  }
+}
+@media (min-width: 1200px) {
+  .page-skills #company-logos .fa {
+    font-size: 100px;
+  }
+}
+.page-skills #skill-explanations .fa {
+  font-size: 200px;
+  padding-top: 11px;
+  margin-top: 20px;
+}
+.page-skills #skill-explanations .fa.half {
+  font-size: 150px;
+}
+.page-contact .fa {
+  color: #2c3e50;
+}
+.page-contact .fa:hover {
+  color: #698aac;
+}
+.page-achievements #achievements section {
+  -webkit-transition: all 300ms ease;
+  -o-transition: all 300ms ease;
+  transition: all 300ms ease;
+  border-radius: 8px;
+  padding: 10px;
+  margin: 5px 0 20px 0;
+}
+.page-achievements #achievements section:hover {
+  background-color: #eeeeee;
+  background-color: #2c3e50;
+}
+.page-achievements #achievements section:hover a {
+  color: white;
+}
+.page-achievements #achievements section a {
+  -webkit-transition: all 300ms ease;
+  -o-transition: all 300ms ease;
+  transition: all 300ms ease;
+  color: #333333;
+}
+.page-achievements #achievements section a h4 {
+  font-weight: 600;
+}
+.page-achievements #achievements section .fa {
+  font-size: 60px;
+  padding-bottom: 10px;
+  /* Small devices (tablets, 768px and up) */
+}
+@media (min-width: 768px) {
+  .page-achievements #achievements section .fa {
+    font-size: 60px;
+  }
+}
+.page-photography {
+  /**********************MASONRY STYLES**********************/
+  /**********************MASONRY STYLES**********************/
+}
+.page-photography .item {
+  width: 20%;
+  margin-bottom: 10px;
+}
+.page-photography .item:hover {
+  opacity: .80;
+}
+.page-personal #personal-sections img {
+  border: 3px solid #eeeeee;
+  box-shadow: 5px 5px 20px -5px #888888;
+  margin-top: 30px;
+}
+.page-personal #personal-sections .fa {
+  font-size: 200px;
+  padding-top: 11px;
+  margin-top: 20px;
+}
+.page-personal #personal-sections .fa.half {
+  font-size: 150px;
+}
+.page-logs {
+  /*Logs Tasks Icons*/
+}
+.page-logs .completed-task {
+  color: #27ae60;
+}
+.page-logs .canceled-task {
+  color: #c0392b;
+}
+.page-logs .attention-task {
+  color: #f1c40f;
+}
+.page-logs .in-progress-task {
+  color: #2980b9;
+}
+.page-logs .task div {
+  border: 1px solid #ccc;
+  padding: 5px;
+}
+.page-logs .task {
+  padding-top: 5px;
+}
+.page-logs .no-break {
+  display: inline-block;
+}
+/*Placeholder text styles*/
+form ::-webkit-input-placeholder {
+  color: #D6D5D5;
+  font-style: italic;
+}
+form :-moz-placeholder {
+  /* Firefox 18- */
+  color: #D6D5D5;
+  font-style: italic;
+}
+form ::-moz-placeholder {
+  /* Firefox 19+ */
+  color: #D6D5D5;
+  font-style: italic;
+}
+form :-ms-input-placeholder {
+  color: #D6D5D5;
+  font-style: italic;
+}

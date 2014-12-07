@@ -1,0 +1,450 @@
+//Import bootstrap variables and mixins 
+@import "bootstrap/variables.less";	
+@import "bootstrap/mixins.less";
+.navbar{
+	.fa{
+		color: white;
+		width: 40px;
+		font-size: 26px;
+		text-align: right;
+	}
+}
+.banner{
+	min-height: 150px;
+	padding-bottom: 20px;
+
+	/* Small devices (tablets, 768px and up) */
+	@media (min-width: @screen-sm-min) {min-height: 250px; }
+
+	/* Medium devices (desktops, 992px and up) */
+	@media (min-width: @screen-md-min) {min-height: 300px; }
+
+	/* Large devices (large desktops, 1200px and up) */
+	@media (min-width: @screen-lg-min) {min-height: 450px; }
+
+	&#home-banner{
+		
+
+		text-align: center;
+		
+		background-color: @darkblue; 
+		#gradient > .vertical(@darkblue, darken(@darkblue, 5%));
+
+		color: white;
+		
+		padding-top: 0px;
+
+
+		h1{
+			font-weight: 700;
+			font-size: 200%;
+			margin-top: 0px;
+			margin-bottom: 0px;
+
+			
+			
+		}
+
+		p{
+			padding-top: 10px;
+			padding-bottom: 10px;
+			font-weight: 300;
+			margin-bottom: 0;
+			font-size: 18px;
+
+			/* Small devices (tablets, 768px and up) */
+			@media (min-width: @screen-sm-min) {font-size: 22px;}
+
+			/* Medium devices (desktops, 992px and up) */
+			@media (min-width: @screen-md-min) {font-size: 26px;}
+
+			/* Large devices (large desktops, 1200px and up) */
+			@media (min-width: @screen-lg-min) {font-size: 30px;}
+		}
+
+		/* Small devices (tablets, 768px and up) */
+		@media (min-width: @screen-sm-min){
+
+			h1{
+				
+				margin-top: 22px;
+			}
+		}
+
+		/* Medium devices (desktops, 992px and up) */
+		@media (min-width: @screen-md-min){
+			min-height: 300px; 
+			padding-top: 50px;
+			h1{
+				font-size: 350%;
+				margin-top: 22px;
+			}
+			padding-top: 40px;
+			p{margin-bottom: 11px;}
+		}
+
+		/* Large devices (large desktops, 1200px and up) */
+		@media (min-width: @screen-lg-min) {
+			min-height: 450px; 
+			padding-top: 50px;
+			h1{
+				font-size: 400%;
+				margin-top: 22px;
+			}
+
+		}
+
+
+	}
+
+	&.img-banner{
+
+		background-repeat: no-repeat;
+		background-size: cover;
+
+		cite{
+			position: absolute;
+		    right: 10px;
+		    // top: 10px;
+		    // bottom:10px;
+
+		    
+		    color: rgba(255, 255, 255, 0.50);
+		    
+		    font-size: 9px;
+		}
+		
+
+		&#pnc-banner{
+			background-image: url(/images/banners/pncpark.jpg);
+		}
+
+		&#cambells-banner{
+			background-image: url(/images/banners/cambells-ledge.jpg);
+		}
+
+		&#prompton-banner{
+			background-image: url(/images/banners/sunset_prompton.jpg);
+			background-position: 50% 60%;
+		}
+
+		&#waterdrops-banner{
+			background-image: url(/images/banners/apartment-waterdrops.jpg);
+			background-position: 50% 100%;
+			
+		}
+
+		&#discgolf-banner{
+			background-image: url(/images/banners/discgolf-me.jpg);
+			// background-position: 50% 100%;
+			background-position: 50% 10%;
+
+			height: 300px;
+
+			/* Small devices (tablets, 768px and up) */
+			@media (min-width: @screen-sm-min) {height: 400px; }
+
+			/* Medium devices (desktops, 992px and up) */
+			@media (min-width: @screen-md-min) {height: 500px; }
+
+			/* Large devices (large desktops, 1200px and up) */
+			@media (min-width: @screen-lg-min) {height: 550px; }
+
+			
+		}
+
+		
+
+	}
+
+}
+
+
+#content{
+	p{
+		line-height: 1.5;
+		font-size: 18px;
+	}
+
+	h1,h2{
+		font-weight: 700;
+	}
+
+	.btn{
+		margin-bottom: 10px;
+	}
+}
+
+
+
+
+
+
+body > footer{
+	margin-top: 20px; 
+	background-color: @lightred;
+	#gradient > .vertical(@lightred, darken(@lightred, 5%));
+	color: white !important;
+	
+	blockquote{
+		footer{
+			color: white;
+		}
+	}
+
+	a {
+		color:white;
+
+		&:hover{
+			color:white; 
+			font-weight: bold; 
+			text-decoration: none;
+		}
+	}
+	
+	
+
+	.twitter-feed{
+		font-size: 15px;
+	}
+
+	/*Icons hover*/
+	.social-icons{
+
+		a {
+			
+			line-height: 45px;
+			
+			.fa{
+				margin: 0 5px 0;
+				font-size: 30px;
+			}
+
+			&:hover{ 
+				
+				.fa{
+					.transition(all 100ms ease-in);
+					font-size: 35px !important;
+					font-weight: normal;
+
+				}
+			}
+		}
+		
+	
+	}
+
+	blockquote{padding-top:30px;}
+	cite{font-style: italic;}
+}
+
+::-moz-selection { /* Code for Firefox */
+    background: @mediumblue;
+    color: white;
+}
+
+::selection {
+    background: @mediumblue;
+    color: white;
+}
+
+/******************Page Styles******************/
+
+.page-home{ 
+	
+	#why-hire{
+		img{
+			margin-top: 30px;
+		}
+	}
+
+	#what-offer{
+		img{
+			margin-bottom: 20px;
+		}
+	}
+	
+}
+
+.page-skills{
+	#company-logos{
+		margin-top: 60px;
+		margin-bottom: 60px;
+
+		.fa{
+			font-size: 50px;
+			text-align: center;
+
+			/* Small devices (tablets, 768px and up) */
+			@media (min-width: @screen-sm-min) {font-size: 70px; }
+
+			/* Medium devices (desktops, 992px and up) */
+			@media (min-width: @screen-md-min) {font-size: 80px;}
+
+			/* Large devices (large desktops, 1200px and up) */
+			@media (min-width: @screen-lg-min) {font-size: 100px;}
+		}
+
+
+
+
+	}
+
+	#skill-explanations{
+		.fa{
+			font-size: 200px;
+			padding-top: 11px;
+			margin-top: 20px;
+
+			&.half{
+				font-size: 150px;
+
+			}
+		}
+
+	}
+}
+
+.page-contact{
+	.fa{
+		color: @darkblue;
+
+		&:hover{ 
+			color: lighten(@darkblue, 30%);
+		}
+	}
+}
+
+.page-achievements{
+	#achievements{
+		
+
+
+
+		section{
+			.transition(all 300ms ease);
+
+			border-radius: 8px;
+
+			padding: 10px;
+
+			&:hover{ 
+				background-color: @gray-lighter;
+				background-color: @brand-primary;
+				a{
+					color: white;
+
+				}
+			}
+
+			a{
+				.transition(all 300ms ease);
+
+				color: @text-color;
+
+				h4{
+					font-weight: 600;
+				}
+			}
+			
+			margin: 5px 0 20px 0;
+
+			.fa{
+				font-size: 60px;
+				padding-bottom: 10px;
+				/* Small devices (tablets, 768px and up) */
+				@media (min-width: @screen-sm-min) {font-size: 60px; }
+			}
+
+			.fa-trophy{
+				
+			}
+		}
+	}
+}
+
+.page-photography{
+	
+
+	/**********************MASONRY STYLES**********************/
+	.item { 
+		width: 20%; 
+		margin-bottom: 10px;
+
+		&:hover{
+			opacity: .80;
+		}
+	}
+
+	
+	/**********************MASONRY STYLES**********************/
+}
+
+.page-personal{
+
+	#personal-sections{
+		img{
+			border: 3px solid @gray-lighter;
+			box-shadow: 5px 5px 20px -5px #888888;
+			margin-top: 30px;
+		}
+
+		.fa{
+			font-size: 200px;
+			padding-top: 11px;
+			margin-top: 20px;
+
+			&.half{
+				font-size: 150px;
+
+			}
+		}
+
+	}
+}
+
+.page-logs{
+	/*Logs Tasks Icons*/
+	.completed-task{color: #27ae60;}
+	.canceled-task{color: #c0392b;}
+	.attention-task{color: #f1c40f;}
+	.in-progress-task{color: #2980b9;}
+
+	.task div{
+		border: 1px solid #ccc;
+		padding: 5px;
+	}
+
+	.task{
+		padding-top: 5px;
+	}
+
+	.no-break{
+		display: inline-block;
+	}
+}
+
+
+
+
+
+/*Placeholder text styles*/
+form ::-webkit-input-placeholder {
+   color: #D6D5D5;
+   font-style: italic; 
+}
+
+form :-moz-placeholder { /* Firefox 18- */
+   color: #D6D5D5;
+   font-style: italic; 
+}
+form ::-moz-placeholder {  /* Firefox 19+ */
+   color: #D6D5D5;
+   font-style: italic;  
+}
+
+form :-ms-input-placeholder {  
+	color: #D6D5D5;
+	font-style: italic;  
+}
+
