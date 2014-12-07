@@ -53,7 +53,7 @@
 
 				<div class="col-md-8 col-md-pull-4">
 					<h3> Why hire me?  </h3>
-					<p> <strong>As a business: </strong>As a freelance web developer, I have experience working with clients in a variety of disciplines, including writers, nurses, profressors, and students to name a few. I also have experience as a technical consultant at the University of Scranton. There I assisted students and faculty with a variety of technical support issues. Through my combined work experience and academic training I gained interpersonal and practical skills, making me an <strong>adaptable</strong> and <strong>dependable</strong> employee qualified for any technical field.</p>
+					<p> <strong>As a business: </strong>As a freelance web developer, I have experience working with clients in a variety of disciplines, including writers, nurses, professors, and students to name a few. I also have experience as a technical consultant at the University of Scranton. There I assisted students and faculty with a variety of technical support issues. Through my combined work experience and academic training I gained interpersonal and practical skills, making me an <strong>adaptable</strong> and <strong>dependable</strong> employee qualified for any technical field.</p>
 
 
 					<p> <strong>As an individual:</strong> My experience working as a web developer and technical consultant has shaped my philosophy on professional conduct. I always make myself <strong>approachable</strong>, <strong>easy to contact</strong>, and <strong>flexible</strong> in any way I can. I can meet you in person, by phone or video messaging, or whichever way is most convenient for you. I am also open to working out a payment method that best fits your needs.</p>
