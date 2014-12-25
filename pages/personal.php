@@ -19,7 +19,7 @@
 
 				<div class="col-md-8">
 					<h3> Bio </h3>
-					<p> I am currently finishing up my degree of Computer Science at the University of Pittsburgh. I currently live in <strong>Pittsburgh</strong>, PA but grew up in <strong>Scranton</strong>, PA. I chose to study computer science because I love the challenge of solving problems that are presented uniquely to this field. I also love how the widespread adoption of computers in almost every field allows people from this field to have a massively broad application field. </p>
+					<p> I am currently finishing up my degree of Computer Science at the University of Pittsburgh. I currently live in <strong>Pittsburgh</strong>, PA but grew up in <strong>Scranton</strong>, PA. I chose to study computer science because I love the challenge of solving problems that are presented uniquely to this field. I also love how the widespread adoption of computers in almost every discipline allows people in computer science to work in a wide variety of subjects. </p>
 					<p><small> Find out more about me by going to my <a href="/contact" target="_blank">contact</a> page. Feel free to ask my any questions here! </small></p>
 				</div>
 		</section>
