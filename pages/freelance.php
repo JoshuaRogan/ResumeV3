@@ -1,6 +1,6 @@
 <?php
 /**
- *	Freelance Page
+ *	Freelance Page UPdate
  *
  */
 
