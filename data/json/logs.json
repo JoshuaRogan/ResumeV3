@@ -7,7 +7,7 @@
 		"account_link" : "LINK",
 		"show_hours": true, 
 		"show_hours_paid": false, 
-		"hours_paid": 42,
+		"hours_paid": 88.5,
 		"protected": false,
 		"projects": [
 			{
@@ -45,7 +45,7 @@
 						"description": "Create the front end design using the front end framework <a href='http://getbootstrap.com/' target='_blank'> Bootstrap </a>", 
 						"type": "Design & Programming", 
 						"status": "In Progress",
-						"hours_worked": 45.0,  
+						"hours_worked": 47.0,  
 						"notes": [
 							"Using <a href='http://refreshless.com/nouislider/' target='_blank'>NoUIslider</a> for the input sliders",
 							"Using <a href='http://lesscss.org/' target='_blank'>LESS</a> for CSS preprocessor. Using <a href='http://nodejs.org/' target='_blank'>Node.js</a> for automatic less compiling in the development environment (turn off in production for speed improvements).",
@@ -59,7 +59,9 @@
 							"Added validation rules and validation feedback",
 							"Created icon and favicon",
 							"Added collapsible sections for each variable section",
-							"Added checkboxes to denote if the variable section is active. Click toggles the activation of the section."
+							"Added checkboxes to denote if the variable section is active. Click toggles the activation of the section.",
+							"Updated variables sections",
+							"Modified infinite population UI"
 						]
 					},
 					{
@@ -131,9 +133,9 @@
 						"description": "Create a FAQ page to explain how to use the graphing application", 
 						"type": "Programming",
 						"status": "In Progress",
-						"hours_worked": 0,  
+						"hours_worked": 2,  
 						"notes": [
-						
+							"Created the layout and some basic FAQs"
 						]
 					},					
 					{
@@ -143,6 +145,28 @@
 						"type": "Meeting",
 						"status": "Completed",
 						"hours_worked": 3.5,  
+						"notes": [
+						
+						]
+					},
+					{
+						"name": "Google Analytics", 
+						"id": 9,
+						"description": "Add Google Analytics for tracking purposes", 
+						"type": "Meeting",
+						"status": "In Progress",
+						"hours_worked":0 ,  
+						"notes": [
+							"Potential testing APIs: http://qunitjs.com/,https://facebook.github.io/jest/ "
+						]
+					},
+					{
+						"name": "JavaScript Unit Testing", 
+						"id": 10,
+						"description": "Testing for bugs/errors.", 
+						"type": "Testing",
+						"status": "In Progress",
+						"hours_worked":0 ,  
 						"notes": [
 						
 						]
@@ -266,7 +290,7 @@
 			{
 				"name": "JavaScript Application", 
 				"link": "LINK", 
-				"description": "Build a JavaScript application that displays keystrokes to press recording the reaction time and accuracy. View the live site here: <a href='http://efnback.melwood.jcubedworld.com' target='_blank'>efnback.melwood.jcubedworld.com</a>. View the source code here: <a href='https://github.com/JoshuaRogan/efnback' target='_blank'>GitHub</a>",
+				"description": "Build a JavaScript application that displays keystrokes to press recording the reaction time and accuracy. View the live site here: <a href='http://efnback.melwood.jcubedworld.com' target='_blank'>efnback.melwood.jcubedworld.com</a>. View the source code here: <a href='https://github.com/JoshuaRogan/efnback' target='_blank'>GitHub</a>. The information site can be viewed <a href='http://www.nncionline.org/' target='_blank'>here</a>",
 				"tasks" : [
 					{
 						"name": "Research Keyboard Capturing", 
@@ -282,7 +306,7 @@
 					},			
 					{
 						"name": "Setup Development Environment", 
-						"id" : 0,
+						"id" : 1,
 						"description": "Setup the initial development environment on my server. After development will move to the environment on sqaurespace.",
 						"type": "Setup/Configuration",  
 						"status": "Completed",
@@ -293,24 +317,40 @@
 					},			
 					{
 						"name": "Front End Design/Development", 
-						"id" : 0,
+						"id" : 2,
 						"description": "Create a user interface based on the desktop demo. ",
 						"type": "Programming",  
 						"status": "In Progress",
-						"hours_worked": 1, 
+						"hours_worked": 2, 
 						"notes": [
-							"Created initial page to test out face sizes. Original size is 400px but is too big for mobile. Current candidate is 300px."
+							"Created initial page to test out face sizes. Original size is 400px but is too big for mobile. Current candidate is 300px.",
+							"Layout created for single letter and two faces. "
 						]
 					},		
 					{
 						"name": "JavaScript Application", 
-						"id" : 0,
+						"id" : 3,
 						"description": "Develop the application specific code using the keypress API. Store the results of each users responses by using some unique id.",
 						"type": "Programming",  
 						"status": "In Progress",
-						"hours_worked": 0, 
+						"hours_worked": 2.0, 
 						"notes": [
-							"Unique id potentially can be IP address combined with a time stamp"
+							"Unique id will be a random number (currently 5 digits) that will be memorable and unique when combined with the date.",
+							"Keyboard press listening starting/stopping implemented using jQuery",
+							"iOS workaround implemented"
+						]
+					},					
+					{
+						"name": "PHP Building Class", 
+						"id" : 4,
+						"description": "Determine what the order and what images will be used in this run of the program. Create a session and subject id and deal with database storing/retrieving.",
+						"type": "Programming",  
+						"status": "In Progress",
+						"hours_worked": 3.5, 
+						"notes": [
+							"Completed sequence builder", 
+							"Completed letter generation based on block type", 
+							"Building HTML layouts for each block type and face configuration."
 						]
 					}
 				]
