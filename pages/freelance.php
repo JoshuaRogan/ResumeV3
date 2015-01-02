@@ -13,26 +13,27 @@
 	  <div class="col-md-4">
 	  	<h3> Static Website </h3>
 	  	<i class="fa fa-globe fa-5x"></i>
-	  	<p> <strong>Prices starting at $100</strong> </p>
+	  	<p> <strong>Prices starting at $250</strong> </p>
 	  	<p> <strong>Who is it for?:</strong> Personal resume, small businesses information website, or content that doesn't change often. </p>
 	  	<p> <strong>What does it offer?</strong> This package is great for a personal website or small business website with pages that are meant primarily for information. It provides a fully unique web solution that meets your needs. </p>
 	  	<p> <strong> Unlimited bandwidth and storage </strong> </p>
 	  </div>
 
 	  <div class="col-md-4">
-	  	<h3> Dynamic Website </h3>
-	  	<i class="fa fa-sitemap fa-5x"></i>
-	  	<p> <strong>Prices starting at $500</strong> </p>
-	  	<p> <strong>Who is it for?:</strong> Advanced personal websites, small and medium businesses, content that requires a database system. </p>
-	  	<p> <strong>What does it offer?</strong> This package is aimed as a web solution that contains dynamic content. Some examples are ecommerce sites that have users sign in and purchase websites, ... It offers emailing, shopping, discussion forums,   </p>
-	  </div>
-
-	  <div class="col-md-4">
 	  	<h3> Dynamic Interactive Website </h3>
 	  	<i class="fa fa-tachometer fa-5x"></i>
 	  	<p> <strong>Prices starting at $1,000</strong> </p>
-	  	<p> <strong>Who is it for?:</strong> Primarily small and medium businesses for fast <em>real time</em> applications. </p>
-	  	<p> <strong>What does it offer?</strong> This package is for advanced  websites that require constant communication between the user and the server. This allows for push notifications, instant communication, instant feedback and more!  </p>
+	  	<p> <strong>Who is it for?:</strong> Advanced personal websites, small and medium businesses, content that requires a database system. Primarily small and medium businesses for fast <em>real time</em> applications. </p>
+	  	<p> <strong>What does it offer?</strong> This package is aimed as a web solution that contains dynamic content for advanced websites that can have constant communication and very dynamic content.  </p>
+	  </div>
+
+
+	  <div class="col-md-4">
+	  	<h3> Web Application </h3>
+	  	<i class="fa fa-cubes fa-5x"></i>
+	  	<p> <strong>Hourly Rates starting at $25/hr</strong> </p>
+	  	<p> <strong>Who is it for?:</strong>  This package is targeted for people who need a one time application with little on going support. </p>
+	  	<p> <strong>What does it offer?:</strong> People who need one particular web application that performs a specific task(s). This is charged at an hourly rate that is negotiable based on the complexity of the application. </p>
 	  </div>
 
 	</div>
@@ -169,13 +170,11 @@
 
 			<h4> Example Costs </h4>
 			<ul class="list-group text-left">
-			  <li class="list-group-item ">10 Page Static Website <span class="badge">$200.00</span> </li>
-			  <li class="list-group-item ">Site Redesign <span class="badge">$250.00</span> </li>
-			  <li class="list-group-item ">20 Page Static Website <span class="badge">$300.00</span> </li>
-			  <li class="list-group-item ">Dynamic Blog <span class="badge">$500.00</span> </li>
-			  <li class="list-group-item ">Dynamic Blog w/User Accounts <span class="badge">$750.00</span> </li>
-			  <li class="list-group-item ">Basic Ecommerce Website <span class="badge">$1,250.00</span> </li>
-			  <li class="list-group-item "><em><strong>Note:</strong> These are very rough ideas. Prices are negotiable and payment plans can be worked out. Also, discounts can be made for web upgrades if applicable. </em></li>
+			  <li class="list-group-item ">5 Page Static Website <span class="badge">$250.00</span> </li>
+			  <li class="list-group-item ">5 Page Site Redesign <span class="badge">$250.00</span> </li>
+			  <li class="list-group-item ">10 Page Static Website <span class="badge">$300.00</span> </li>
+			  <li class="list-group-item ">20 Page Static Website <span class="badge">$500.00</span> </li>
+			  <li class="list-group-item "><em><strong>Note:</strong> These prices are typical for simple static websites which can often be completed <strong>within weeks</strong>. All static websites come with life time hosting!</em></li>
 
 			</ul>
 
