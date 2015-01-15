@@ -58,6 +58,10 @@
     {
 		"quote": "I choose a lazy person to do a hard job. Because a lazy person will find an easy way to do it.",				
 		"source": "Bill Gates"				
+	},
+	{
+		"quote": "We will encourage you to develop the three great virtues of a programmer: laziness, impatience, and hubris",
+		"source": "Larry Wall"				
 	}
 ]
 

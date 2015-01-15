@@ -43,6 +43,37 @@
 					<li> <i class="fa-li fa fa-check"></i> Use high quality dSLR photography integrated with website  </li>
 				</ul>
 
+
+				<h4> References: </h4>
+				<section class="row"> 
+					<section class="col-sm-4"> 
+						<ul class="list-unstyled"> 
+							<li> <strong>Dr. John Shaffer</strong><em>University of Pittsburgh</em> </li>
+							<li> Human Genetics Professor  </li>
+							<li> Phone: (412) 624-3018 </li>
+							<li> Email: <a href="mailto:jrs51@pitt.edu"> jrs51@pitt.edu </a> </li>
+						</ul>
+					</section>
+
+			<!-- 		<section class="col-sm-4"> 
+						<ul class="list-unstyled"> 
+							<li> <strong>Brian Snapp</strong> </li>
+							<li> Assoc. Director CTLE </li>
+							<li> Phone: (570) 941-4040 </li>
+							<li> Email: <a href="mailto:brian.snapp@scranton.edu"> brian.snapp@scranton.edu </a> </li>
+						</ul>
+					</section>
+
+					<section class="col-sm-4"> 
+						<ul class="list-unstyled"> 
+							<li> <strong>Eugeniu Grigorescu</strong> </li>
+							<li> Director Center for Teaching/Learning Excellence </li>
+							<li> Phone: (570) 941-5519 </li>
+							<li> Email:<a href="mailto:eugeniu.grigorescu@scranton.edu"> eugeniu.grigorescu@scranton.edu </a> </li>
+						</ul>
+					</section> -->
+				</section>
+
 			</section>
 			<!-- End Job -->
 

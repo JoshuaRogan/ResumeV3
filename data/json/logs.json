@@ -7,7 +7,7 @@
 		"account_link" : "LINK",
 		"show_hours": true, 
 		"show_hours_paid": false, 
-		"hours_paid": 88.5,
+		"hours_paid": 98.5,
 		"protected": false,
 		"projects": [
 			{
@@ -61,7 +61,8 @@
 							"Added collapsible sections for each variable section",
 							"Added checkboxes to denote if the variable section is active. Click toggles the activation of the section.",
 							"Updated variables sections",
-							"Modified infinite population UI"
+							"Modified infinite population UI",
+							"Updated Exponents UI"
 						]
 					},
 					{
@@ -70,7 +71,7 @@
 						"description": "Create a class (currently in JavaScript originally PHP) to create the random generations based on known probabilities. ", 
 						"type": "Programming", 
 						"status": "In Progress",
-						"hours_worked": 25.0,  
+						"hours_worked": 26.0,  
 						"notes": [
 							"Began working on the overall structure of the class.",
 							"Random sampling now integrated and working",
@@ -84,7 +85,8 @@
 							"Minor Speed improvements",
 							"Increasing precision on mutation variables x10<sup>-3</sup> automatic scaling", 
 							"Updated to handle infinite population size", 
-							"Updated to handle assortative mating"
+							"Updated to handle assortative mating",
+							"Updated to handle variable exponents"
 						]
 					},
 					{
@@ -120,7 +122,7 @@
 						"description": "Optimize code to allow for 10,000+ generations on 10,000+ population size.", 
 						"type": "Programming",
 						"status": "Completed",
-						"hours_worked": 6.0,  
+						"hours_worked": 8.0,  
 						"notes": [
 							"Implemented non-blocking building of random samples. (This will make it appear that the page isn't freezing during computation)",
 							"Added percentage modal to show progress of computation (Only appears on large computations)",
@@ -133,9 +135,10 @@
 						"description": "Create a FAQ page to explain how to use the graphing application", 
 						"type": "Programming",
 						"status": "In Progress",
-						"hours_worked": 2,  
+						"hours_worked": 4,  
 						"notes": [
-							"Created the layout and some basic FAQs"
+							"Created the layout and some basic FAQs",
+							"Added more questions"
 						]
 					},					
 					{
@@ -144,7 +147,7 @@
 						"description": "Bi-weekly meetings.", 
 						"type": "Meeting",
 						"status": "Completed",
-						"hours_worked": 3.5,  
+						"hours_worked": 5,  
 						"notes": [
 						
 						]
@@ -239,7 +242,7 @@
 			{
 				"name": "Web Site Maintenance", 
 				"link": "LINK", 
-				"description": "Updated various aspects of the website.",
+				"description": "Updated various aspects of the website. Link to website: <a href='http://www.electriccitybaseball.com/' target='_blank'>Electric City Baseball</a>. FTP URL:ftp.electriccitybaseball.com ",
 				"tasks" : [
 					{
 						"name": "Website Updates (November 25th)", 
@@ -270,6 +273,24 @@
 							"Edited text on a form button",
 							"Update the Google form with the new fields",
 							"Changed ownership of file to moosicmetsgm@gmail.com from moosicmets@gmail.com"
+						]
+					},
+					{
+						"name": "Website Updates (January 7)", 
+						"id" : 2,
+						"description": "Various website updates",
+						"type": "Updates",  
+						"status": "In Progress",
+						"hours_worked": 2.5, 
+						"notes": [
+							"Removed Images from slider",
+							"Removed Chris Homer from staff page",
+							"Added 3 new events and pamphlets",
+							"Added Manny Roman to staff page (No Image)",
+							"Create LL Pre-season Banner Image",
+							"Create Hitters Clinic Banner Image",
+							"Create Little Sluggers Banner Image",
+							"Added Kristen Hricenak to staff page (No Image)"
 						]
 					}
 				]
@@ -321,10 +342,11 @@
 						"description": "Create a user interface based on the desktop demo. ",
 						"type": "Programming",  
 						"status": "In Progress",
-						"hours_worked": 2, 
+						"hours_worked": 4, 
 						"notes": [
 							"Created initial page to test out face sizes. Original size is 400px but is too big for mobile. Current candidate is 300px.",
-							"Layout created for single letter and two faces. "
+							"Layout created for single letter and two faces. ",
+							"Created entire layout for all configurations of letters"
 						]
 					},		
 					{
@@ -333,24 +355,49 @@
 						"description": "Develop the application specific code using the keypress API. Store the results of each users responses by using some unique id.",
 						"type": "Programming",  
 						"status": "In Progress",
-						"hours_worked": 2.0, 
+						"hours_worked": 3.0, 
 						"notes": [
 							"Unique id will be a random number (currently 5 digits) that will be memorable and unique when combined with the date.",
 							"Keyboard press listening starting/stopping implemented using jQuery",
-							"iOS workaround implemented"
+							"iOS workaround implemented",
+							"EFNBack class created"
 						]
 					},					
 					{
 						"name": "PHP Building Class", 
 						"id" : 4,
-						"description": "Determine what the order and what images will be used in this run of the program. Create a session and subject id and deal with database storing/retrieving.",
+						"description": "Determine what the order and what images will be used in this run of the program. Create a session and subject id and deal with database storing/retrieving. View the building of generations here: <a href='http://efnback.melwood.jcubedworld.com/test-generations' target='_blank'>http://efnback.melwood.jcubedworld.com/test-generations </a>",
 						"type": "Programming",  
 						"status": "In Progress",
-						"hours_worked": 3.5, 
+						"hours_worked": 11, 
 						"notes": [
 							"Completed sequence builder", 
 							"Completed letter generation based on block type", 
-							"Building HTML layouts for each block type and face configuration."
+							"Building HTML layouts for each block type and face configuration.",
+							"0-Back Generations Finished",
+							"2-back Generations Finished"
+						]
+					},
+					{
+						"name": "Hosting Service", 
+						"id" : 5,
+						"description": "Life time shared hosting plan $50 for this application. ",
+						"type": "Setup/Configuration",  
+						"status": "Completed",
+						"hours_worked": 2.5, 
+						"notes": [
+
+						]
+					},
+					{
+						"name": "Admin Page", 
+						"id" : 6,
+						"description": "Set session numbers. See statistics, delete data, modify data, etc.",
+						"type": "Programming",  
+						"status": "In Progress",
+						"hours_worked": 0, 
+						"notes": [
+
 						]
 					}
 				]

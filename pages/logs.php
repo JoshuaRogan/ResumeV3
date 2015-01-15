@@ -99,7 +99,7 @@ HTML;
 								<p> <strong> Task Description: </strong>{$task->description} </p>
 								<p> <strong> Task Type: </strong>{$task->type} </p>
 								<p> <strong> Task Status: </strong> {$task->status} </p>
-								<p> <strong> Notes: </strong></p>
+								<p> <strong> Breakdown: </strong></p>
 								<ul class="fa-ul"> 
 									 {$this->print_notes($task)} 
 								</ul> 
