@@ -4,6 +4,8 @@
 		public $total_hours; 
 		public $hours_unpaid;
 
+		public static $types = array("In Progress", "Completed", "Needs Attention", "Canceled", "Future Update");
+
 		public function __construct($json){ 
 			$this->json_data = $json; 
 
@@ -22,7 +24,7 @@
 			
 			return <<<HTML
 
-			<section data-sr class="account" class="col-md-12"> 
+			<section class="account" class="col-md-12"> 
 				<h2> {$this->json_data->account_name} <small class='no-break'>{$this->get_total_hours_account()} | Unpaid {$this->hours_unpaid} / Paid {$this->json_data->hours_paid}</small></h2> 
 				{$this->print_projects()}
 			</section>
@@ -62,6 +64,19 @@ HTML;
 HTML;
 			}
 			return $string; 
+		}		
+									
+
+		private function print_bugs($task){
+			$string = ""; 
+			if($task->bugs){
+				$string .= "<p> <strong> Known Bugs: </strong></p><ul class='fa-ul'>";
+				foreach($task->bugs as $bug){
+					$string .= "<li> <i class='fa-li fa fa-bug'></i>$bug </li>";
+				}
+				$string .= "</ul>"; 
+			}
+			return $string; 
 		}
 
 		private function generate_task_icon($task){ 
@@ -69,6 +84,7 @@ HTML;
 			else if(strcasecmp($task->status, "Canceled") == 0) return " <i class='canceled-task fa fa-times'></i>" ;
 			else if(strcasecmp($task->status, "Needs Attention") == 0) return " <i class='attention-task fa fa-exclamation-triangle'></i>" ;
 			else if(strcasecmp($task->status, "In Progress") == 0) return " <i class='in-progress-task fa fa-spinner fa-spin'></i>" ;
+			else if(strcasecmp($task->status, "Future Update") == 0) return " <i class='in-progress-task fa fa-cogs'></i>" ;
 		}
 
 		private function print_tasks($project){
@@ -76,6 +92,7 @@ HTML;
 			$sorted_project = array(); 
 			foreach($project->tasks as $task){if(strcasecmp($task->status, "Needs Attention") == 0) array_push($sorted_project, $task);}
 			foreach($project->tasks as $task){if(strcasecmp($task->status, "In Progress") == 0) array_push($sorted_project, $task);}
+			foreach($project->tasks as $task){if(strcasecmp($task->status, "Future Update") == 0) array_push($sorted_project, $task);}
 			foreach($project->tasks as $task){if(strcasecmp($task->status, "Completed") == 0) array_push($sorted_project, $task);}
 			foreach($project->tasks as $task){if(strcasecmp($task->status, "Canceled") == 0) array_push($sorted_project, $task);}
 
@@ -99,6 +116,7 @@ HTML;
 								<p> <strong> Task Description: </strong>{$task->description} </p>
 								<p> <strong> Task Type: </strong>{$task->type} </p>
 								<p> <strong> Task Status: </strong> {$task->status} </p>
+								{$this->print_bugs($task)} 
 								<p> <strong> Breakdown: </strong></p>
 								<ul class="fa-ul"> 
 									 {$this->print_notes($task)} 
