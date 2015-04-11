@@ -1,0 +1,20 @@
+@extends('skeleton.base')
+@section('title', 'Home')
+@section('description', 'Description for this page')
+
+@section('styles')
+	@parent
+
+@stop
+
+@section('lazyscripts')
+	@parent
+
+@stop
+
+
+@section('content')
+	<div id="main" class="page-home container-fluid"> 
+
+	</div>
+@endsection
